@@ -2,7 +2,7 @@
 
 # `🌎 My portfolio website`
 
-** My portfolio website written using React & Bootstrap **
+**My portfolio website written using React & Bootstrap**
 
 <a href="https://beastle9end.github.io/portfolio">Check it out!</a>
 
