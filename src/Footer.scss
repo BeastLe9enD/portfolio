@@ -1,0 +1,40 @@
+.footer {
+  background-color: $dark-color-2;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer .spacer {
+  width: 100%;
+  height: 2px;
+  background-color: #7A7772;
+}
+
+.footer .elements {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .elements ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.footer .elements a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.footer .elements a:hover {
+  text-decoration: underline;
+}
+
+.footer .elements li, .footer .elements p {
+  display: inline;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-right: 40px;
+}

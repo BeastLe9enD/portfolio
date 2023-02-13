@@ -1,0 +1,16 @@
+.about-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-right .inner {
+  padding: 100px 100px 200px;
+  transition: 0.3s all;
+}
+
+@media (max-width: 1499px) {
+  .about-right .inner {
+    padding: 50px 50px 50px 50px;
+  }
+}

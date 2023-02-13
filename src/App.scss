@@ -1,0 +1,92 @@
+/* Bootstrap */
+@import "~bootstrap/scss/bootstrap";
+
+/* animate.css */
+@import "~animate.css/animate";
+
+/* Hamburgers */
+@import "~hamburgers/dist/hamburgers";
+
+/* Main */
+$text-color: #B8B5B1;
+$blue-color: #6989A5;
+$dark-color-1: #4B4C4B;
+$dark-color-2: #454545;
+$dark-color-3: #343433;
+$light-color: #878F94;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: $text-color;
+}
+
+.form-control {
+  background-color: $dark-color-3;
+  border-color: $dark-color-3;
+}
+
+main {
+  font-size: 20px;
+}
+
+h2 {
+  color: $light-color;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+@media (max-width: 1199px) {
+  main {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+}
+
+/* Nav Bar */
+@import "Navbar.scss";
+
+/* Content */
+.content {
+  position: relative;
+  background-color: $dark-color-1;
+  z-index: 2;
+}
+
+/* Utils */
+.big-button {
+  border-style: none;
+  font-size: 17px;
+  padding: 12px 35px 12px 35px;
+  color: white;
+  background-color: rgba(63, 64, 64, 0.5);
+  backdrop-filter: blur(7px);
+  transition: 0.3s all;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.big-button:hover {
+  color: rgba(52, 52, 52, 0.8);
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.animate-observable {
+
+}
+
+/* Sections */
+@import "Preview.scss";
+@import "About.scss";
+@import "Work.scss";
+@import "Contact.scss";
+@import "Footer.scss";

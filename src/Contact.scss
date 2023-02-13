@@ -1,0 +1,38 @@
+.contact {
+
+}
+
+.contact .l, .contact .r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  transition: 0.3s all ease;
+}
+
+.contact .r {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media (max-width: 992px) {
+  .contact .l {
+    padding: 100px 50px 50px;
+  }
+
+  .contact .r {
+    padding: 0 50px 100px;
+  }
+}
+
+.mail {
+  text-decoration: none;
+  color: $text-color;
+  transition: 0.3s all ease;
+}
+
+.mail:hover {
+  color: $blue-color;
+}
