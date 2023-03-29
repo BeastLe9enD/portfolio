@@ -64,14 +64,13 @@ h3 {
 
 /* Utils */
 .big-button {
-  border-style: none;
-  font-size: 17px;
-  padding: 12px 35px 12px 35px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 40px 25px 40px;
   color: white;
-  background-color: rgba(63, 64, 64, 0.5);
+  background-color: rgba(100, 100, 100, 0.5);
   backdrop-filter: blur(7px);
   transition: 0.3s all;
-  border-radius: 12px;
   text-decoration: none;
 }
 
