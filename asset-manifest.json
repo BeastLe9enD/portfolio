@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b33b11e7.css",
-    "main.js": "/portfolio/static/js/main.c3e892d8.js",
-    "static/media/preview.jpg": "/portfolio/static/media/preview.38b194c4b7c199f04050.jpg",
+    "main.css": "/portfolio/static/css/main.4a9a09cc.css",
+    "main.js": "/portfolio/static/js/main.375d92ff.js",
     "static/media/about.jpg": "/portfolio/static/media/about.14fcbe6194656dd28601.jpg",
+    "static/media/preview.jpg": "/portfolio/static/media/preview.3dad61d03c61d9209ace.jpg",
     "static/media/vk-ext-mesh-shader-example.jpg": "/portfolio/static/media/vk-ext-mesh-shader-example.7ee4e203506f333be62d.jpg",
     "static/media/moselbike.jpg": "/portfolio/static/media/moselbike.3408011ee8b9e9ab2aec.jpg",
     "static/media/metal-3-example.jpg": "/portfolio/static/media/metal-3-example.5fffab9fd1b77a320757.jpg",
@@ -13,11 +13,11 @@
     "static/media/puzzle-game.jpg": "/portfolio/static/media/puzzle-game.ab98143ddca26a199b8a.jpg",
     "static/media/render-pipeline-shaders-rs.jpg": "/portfolio/static/media/render-pipeline-shaders-rs.3b932391b8d67cab3237.jpg",
     "index.html": "/portfolio/index.html",
-    "main.b33b11e7.css.map": "/portfolio/static/css/main.b33b11e7.css.map",
-    "main.c3e892d8.js.map": "/portfolio/static/js/main.c3e892d8.js.map"
+    "main.4a9a09cc.css.map": "/portfolio/static/css/main.4a9a09cc.css.map",
+    "main.375d92ff.js.map": "/portfolio/static/js/main.375d92ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.b33b11e7.css",
-    "static/js/main.c3e892d8.js"
+    "static/css/main.4a9a09cc.css",
+    "static/js/main.375d92ff.js"
   ]
 }
