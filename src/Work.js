@@ -5,6 +5,7 @@ import * as Icon from 'react-bootstrap-icons'
 
 import VkExtMeshShaderExampleImg from './assets/projects/vk-ext-mesh-shader-example.jpg';
 import PuzzleGameImg from './assets/projects/puzzle-game.jpg';
+import KamelOldImg from './assets/projects/kamel_old.jpeg';
 import MoselbikeImg from './assets/projects/moselbike.jpg';
 import SanctuaryIslandImg from './assets/projects/sanctuary-island.jpg';
 import Metal3ExampleImg from './assets/projects/metal-3-example.jpg';
@@ -76,6 +77,13 @@ function Work() {
                               image={PuzzleGameImg}/>
                 </Carousel.Item>
                 <Carousel.Item>
+                    <WorkItem title="Kamel (Old)"
+                              description="A toy game engine written in 2021. It is written in C++ using SDL2/Vulkan and offers a meshlet-based renderer, a free camera and a font renderer using FreeType."
+                              time="2021"
+                              image={KamelOldImg}
+                              github="https://github.com/projectkml/kamel-old-cpp"/>
+                </Carousel.Item>
+                <Carousel.Item>
                     <WorkItem title="Moselbike"
                               description="A website of a bicycle rental company. The site includes some pages with pictures/texts, there is also a rental system where you can rent bikes and pay with Paypal. The renter can add bikes, print automatically generated rental contracts and manage the database. The system is written in PHP."
                               time="April 2021 - August 2021"
@@ -95,7 +103,7 @@ function Work() {
                               description="When Apple announced that the Metal API would get Mesh Shaders at WWDC 2022, I was very curious to see to what extent the mesh shaders mapped to DX12 and in what ways they differed. So I set up a small example project, which was certainly helpful for other people, since there was no real documentation at that time."
                               time="Juni 2022"
                               image={Metal3ExampleImg}
-                              github="https://github.com/BeastLe9enD/metal-3-example"/>
+                              github="https://github.com/projectkml/metal_3_example/"/>
                 </Carousel.Item>
                 <Carousel.Item>
                     <WorkItem title="Zweirad Klaus"

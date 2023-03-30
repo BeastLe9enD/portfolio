@@ -60,6 +60,7 @@ h3 {
   position: relative;
   background-color: $dark-color-1;
   z-index: 2;
+  transform: translate3d(0, 0, 2px);
 }
 
 /* Utils */
