@@ -11,6 +11,7 @@ import SanctuaryIslandImg from './assets/projects/sanctuary-island.jpg';
 import Metal3ExampleImg from './assets/projects/metal-3-example.jpg';
 import ZweiradKlausImg from './assets/projects/zweirad-klaus.jpg';
 import RenderPipelineShadersRsImg from './assets/projects/render-pipeline-shaders-rs.jpg';
+import PdEngineImg from './assets/projects/pd_engine.png';
 import PortfolioImg from './assets/projects/portfolio.jpg';
 
 function getIconIfNotNull(value, icon) {
@@ -117,6 +118,13 @@ function Work() {
                               description="A very lightweight Rust wrapper around the Render Pipeline Shaders library from AMD. The goal of the library is to make it friendly for use with Rust without straying too far from the original library."
                               time="December 2022 - Present"
                               image={RenderPipelineShadersRsImg}
+                              github="https://github.com/projectkml/render-pipeline-shaders-rs"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <WorkItem title="PD Engine"
+                              description="A game engine that I had written with my brother from late 2019 to early 2020. It provides a model renderer, a font renderer, a script runtime via C# and a package system for resources. The project does not reflect my current level of knowledge, but I added it anyway."
+                              time="Januar 2020 - Mai 2020"
+                              image={PdEngineImg}
                               github="https://github.com/projectkml/render-pipeline-shaders-rs"/>
                 </Carousel.Item>
                 <Carousel.Item>
