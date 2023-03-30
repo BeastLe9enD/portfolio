@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2ed699d8.css",
-    "main.js": "/portfolio/static/js/main.8742ca35.js",
+    "main.js": "/portfolio/static/js/main.d89996f4.js",
     "static/media/kamel_old.jpeg": "/portfolio/static/media/kamel_old.793d163822c66f567e97.jpeg",
     "static/media/about.jpg": "/portfolio/static/media/about.14fcbe6194656dd28601.jpg",
     "static/media/preview.jpg": "/portfolio/static/media/preview.3dad61d03c61d9209ace.jpg",
@@ -15,10 +15,10 @@
     "static/media/render-pipeline-shaders-rs.jpg": "/portfolio/static/media/render-pipeline-shaders-rs.3b932391b8d67cab3237.jpg",
     "index.html": "/portfolio/index.html",
     "main.2ed699d8.css.map": "/portfolio/static/css/main.2ed699d8.css.map",
-    "main.8742ca35.js.map": "/portfolio/static/js/main.8742ca35.js.map"
+    "main.d89996f4.js.map": "/portfolio/static/js/main.d89996f4.js.map"
   },
   "entrypoints": [
     "static/css/main.2ed699d8.css",
-    "static/js/main.8742ca35.js"
+    "static/js/main.d89996f4.js"
   ]
 }
