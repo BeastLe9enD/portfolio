@@ -78,7 +78,7 @@ function Work() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <WorkItem title="Kamel (Old)"
-                              description="A toy game engine written in 2021. It is written in C++ using SDL2/Vulkan and offers a meshlet-based renderer, a free camera and a font renderer using FreeType."
+                              description="A toy game engine written in 2021. It is written in C++ using SDL2/Vulkan and offers a meshlet-based renderer, a free camera and a font renderer using FreeType. Also, a .NET Core runtime is embedded to allow scripting in C#."
                               time="2021"
                               image={KamelOldImg}
                               github="https://github.com/projectkml/kamel-old-cpp"/>
